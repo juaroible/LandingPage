@@ -13,7 +13,7 @@ function changeColabType() {
     DivSeleccionado.innerHTML = `
 <h3>Anunciantes: Paquetes de patrocinio.</h3>
     <div id="ociones"></div>
-    <div class="containtersColaboradores">
+    <div class="container"">
       <p>
         En CritiCompare, estamos comprometidos en ofrecer una plataforma de
         comparación de reseñas de películas que atrae a una audiencia de adultos
@@ -30,7 +30,7 @@ function changeColabType() {
       </p>
     </div>
 
-    <div class="containters">
+    <div class=""container"">
       <h2>Nuestros planes:</h2>
       <table class="tablePlanes">
         <tr>
@@ -77,7 +77,7 @@ function changeColabType() {
   if (select.value == "Colaborator") {
     DivSeleccionado.innerHTML = 
     `
-    <div class="containtersColaboradores">
+    <div class="container">
         <div>
             <p>
                 En CritiCompare, estamos siempre en busca de nuevas oportunidades para expandir nuestra red de reviews. 
@@ -96,7 +96,7 @@ function changeColabType() {
             información de contacto:
         </h2>
 
-        <div class="contacto">
+        <div class="container">
             <ul>
                 Nombre: Pablo Sancho
             </ul>

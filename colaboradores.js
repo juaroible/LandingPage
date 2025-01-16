@@ -30,7 +30,7 @@ function changeColabType() {
       </p>
     </div>
 
-    <div class=""container"">
+    <div class="container">
       <h2>Nuestros planes:</h2>
       <table class="tablePlanes">
         <tr>

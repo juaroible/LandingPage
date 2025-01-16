@@ -11,3 +11,173 @@
     width: 33%;
     text-align: center;
 }
+
+.containtersColaboradores{
+    padding: 20px;
+    max-width: 1200px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacto{
+    padding: 1;
+}
+
+
+.centerElement{
+    font-family: 'Arial', sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+}
+
+
+.form-container {
+
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
+
+select {
+    width: 100%;
+    max-width: 400px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #fff;
+    font-size: 16px; 
+    color: #333; 
+    appearance: none; 
+    cursor: pointer; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+select:hover {
+    border-color: #4CAF50; 
+}
+
+
+select:focus {
+    outline: none; 
+    border-color: #4CAF50; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); 
+}
+
+
+.select-container {
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+
+h1, h2 {
+    margin-left: 20px; 
+}
+
+
+select {
+    width: 100%; 
+    max-width: 400px;
+    padding: 12px; 
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    background-color: #f4f4f9; 
+    font-size: 18px; 
+    color: #333;
+    appearance: none; 
+    cursor: pointer; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+select:hover {
+    border-color: #2e7d32; 
+    background-color: #e8f5e9;
+}
+
+
+select:focus {
+    outline: none; 
+    border-color: #1b5e20; 
+    box-shadow: 0 0 8px rgba(27, 94, 32, 0.5); 
+    background-color: #ffffff; 
+}
+
+
+.select-container {
+    max-width: 400px; 
+    margin: 10px auto; 
+}

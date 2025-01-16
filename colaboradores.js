@@ -11,9 +11,9 @@ function changeColabType() {
 
   if (select.value == "Ads") {
     DivSeleccionado.innerHTML = `
-<h3>Anunciantes: Paquetes de patrocinio</h3>
+<h3>Anunciantes: Paquetes de patrocinio.</h3>
     <div id="ociones"></div>
-    <div class="container">
+    <div class="containtersColaboradores">
       <p>
         En CritiCompare, estamos comprometidos en ofrecer una plataforma de
         comparación de reseñas de películas que atrae a una audiencia de adultos
@@ -30,7 +30,7 @@ function changeColabType() {
       </p>
     </div>
 
-    <div class="containerUsuarios">
+    <div class="containters">
       <h2>Nuestros planes:</h2>
       <table class="tablePlanes">
         <tr>
@@ -39,7 +39,7 @@ function changeColabType() {
 
             <ul>
               <li>
-                Publicidad distribuida en zonas de interés para los usuarios
+                Publicidad distribuida en zonas de interés para los usuarios.
               </li>
               <li>Informe de desempeño trimestral</li>
             </ul>
@@ -50,8 +50,8 @@ function changeColabType() {
             <h2>Medium</h2>
 
             <ul>
-              <li>Banner destacado en una ubicación visible</li>
-              <li>Informe de desempeño mensual</li>
+              <li>Banner destacado en una ubicación visible.</li>
+              <li>Informe de desempeño mensual.</li>
             </ul>
 
             <h1>150€ - 400€/mes</h1>
@@ -62,7 +62,7 @@ function changeColabType() {
             <ul>
               <li>
                 Ubicación destacada en la página principal, con un banner en la
-                parte superior de la landing page, asegurando máxima visibilidad
+                parte superior de la landing page, asegurando máxima visibilidad.
               </li>
               <li>Acceso a todo tipo de valoraciones</li>
             </ul>
@@ -75,6 +75,67 @@ function changeColabType() {
   }
 
   if (select.value == "Colaborator") {
-    DivSeleccionado.innerHTML = ``;
+    DivSeleccionado.innerHTML = 
+    `
+    <div class="containtersColaboradores">
+        <div>
+            <p>
+                En CritiCompare, estamos siempre en busca de nuevas oportunidades para expandir nuestra red de reviews. 
+                Si eres el representante una web que ofrece reseñas y te gustaría colaborar con nosotros, estamos abiertos a expandir
+                nuestro programa de colaboradores y  trabajar juntos para mejorar la experiencia de nuestros usuarios y aumentar nuestro alcance mutuo.
+            </p>
+        
+            <p>
+                Si estás interesado en participar o necesitas más información, no dudes en ponerte en contacto con Pablo Sancho, nuestro Gestor de Relaciones
+                con Webs Colaboradoras. Pablo es el encargado de gestionar todas las alianzas y está disponible para discutir cómo podemos 
+                crear una colaboración beneficiosa para ambos.
+            </p>
+        </div>
+
+        <h2>
+            información de contacto:
+        </h2>
+
+        <div class="contacto">
+            <ul>
+                Nombre: Pablo Sancho
+            </ul>
+            <ul>
+                Email: pablo.sancho@criticomprare.com
+            </ul>
+            <ul>
+                Teléfono: +34 123 456 789
+            </ul>
+        </div>
+
+    `;
+  }
+
+  if (select.value=="other") {
+    DivSeleccionado.innerHTML =
+    `
+    <br>
+    <div class="centerElement">
+        <div class="form-container">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="POST" id="contactForm">
+                <div class="input-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="Introduce tu email">
+                </div>
+                <div class="input-group">
+                    <label for="motivo">Motivo de Contacto</label>
+                    <textarea id="motivo" name="motivo" rows="4" required placeholder="Escribe tu motivo aquí"></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="empresa">Nombre de la Empresa</label>
+                    <input type="text" id="empresa" name="empresa" required placeholder="Nombre de la empresa">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    `
   }
 }

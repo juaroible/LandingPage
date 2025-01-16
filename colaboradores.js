@@ -92,11 +92,11 @@ function changeColabType() {
             </p>
         </div>
 
-        <h2>
-            información de contacto:
-        </h2>
-
+        
         <div class="container">
+        <h2>
+            Información de contacto:
+        </h2>
             <ul>
                 Nombre: Pablo Sancho
             </ul>

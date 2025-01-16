@@ -11,9 +11,10 @@ function changeColabType() {
 
   if (select.value == "Ads") {
     DivSeleccionado.innerHTML = `
-<h3>Anunciantes: Paquetes de patrocinio.</h3>
+
     <div id="ociones"></div>
     <div class="container"">
+    <h3>Anunciantes: Paquetes de patrocinio.</h3>
       <p>
         En CritiCompare, estamos comprometidos en ofrecer una plataforma de
         comparación de reseñas de películas que atrae a una audiencia de adultos
@@ -78,6 +79,7 @@ function changeColabType() {
     DivSeleccionado.innerHTML = 
     `
     <div class="container">
+    <h3>Página de reviews:</h3>
         <div>
             <p>
                 En CritiCompare, estamos siempre en busca de nuevas oportunidades para expandir nuestra red de reviews. 

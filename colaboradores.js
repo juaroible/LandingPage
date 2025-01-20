@@ -45,7 +45,7 @@ function changeColabType() {
               <li>Informe de desempeño trimestral</li>
             </ul>
 
-            <h1>300€ - $700€/mes</h1>
+            <h1>150€ - 400€/mes</h1>
           </td>
           <td class="tdPlanes">
             <h2>Medium</h2>
@@ -55,7 +55,7 @@ function changeColabType() {
               <li>Informe de desempeño mensual.</li>
             </ul>
 
-            <h1>150€ - 400€/mes</h1>
+            <h1>300€ - $700€/mes</h1>
           </td>
 
           <td class="tdPlanes">

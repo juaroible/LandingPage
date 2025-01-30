@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | CritiCompare</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .blog-post {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            overflow: hidden;
+            max-width: 400px;
+            text-align: center;
+        }
+        .blog-post img {
+            width: 100%;
+            height: auto;
+        }
+        .blog-post h2 {
+            color: #333;
+            padding: 10px;
+        }
+        .blog-post .date {
+            color: #666;
+            font-size: 14px;
+        }
+        .blog-post .excerpt {
+            padding: 15px;
+            color: #555;
+        }
+        .read-more {
+            display: inline-block;
+            background-color: #ff4500;
+            color: white;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .read-more:hover {
+            background-color: #cc3700;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="logoHeader" src="./res/img/LogoHorizontal.png">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="usuario.html">Usuario</a>
+                <a href="colaboradores.html">Colaboradores</a>
+                <a href="blog.html"> <u>Blog</u></a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="blog-container">
+            <article class="blog-post">
+                
+                <h2>Título del artículo</h2>
+                <p class="date">Publicado el 30 de enero de 2025</p>
+                <p class="excerpt">Resumen breve de la crítica o del contenido del post. Descubre cómo las opiniones de los expertos varían sobre esta película.</p>
+                <a href="#" class="read-more">Leer más</a>
+            </article>
+
+            <article class="blog-post">
+            
+                <h2>Otro artículo interesante</h2>
+                <p class="date">Publicado el 25 de enero de 2025</p>
+                <p class="excerpt">Un vistazo a las reseñas de las películas más esperadas del año.</p>
+                <a href="#" class="read-more">Leer más</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CritiCompare SL. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="about.html">Sobre nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="privacy.html">Políticas de Privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>
